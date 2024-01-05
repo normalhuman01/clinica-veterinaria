@@ -1,0 +1,28 @@
+.container .btn{
+    background-color: white;
+    color: #3D3242;
+}
+
+.container .btn:hover{
+    background-color: #3D3242;
+    color: white;
+}
+
+.fondo1{
+    background-image: url('../assets/Group\ 6.png');
+    height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+main a{
+    color: white;
+}
+
+main a:hover{
+    text-decoration: none;
+    color: inherit;
+}

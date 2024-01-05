@@ -1,0 +1,16 @@
+.fondo_perfilE{
+    background-image: url('../assets/Group\ 8.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+main a{
+    color: black;
+}
+
+main a:hover{
+    text-decoration: none;
+    color: inherit;
+}

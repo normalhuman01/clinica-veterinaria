@@ -1,0 +1,21 @@
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 text-center">
+                <img src="/assets/cheems.jpg" alt="Doge con ansiedad por no encontrar la página" width="100%">
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                {{#if user}}
+                    <button type="btn" class="btn-enviar btn my-4" style="background-color: #3D3242; color:white;"><a href="/usuario">Regresar al inicio</a></button>
+
+                {{else}}
+                    <button type="btn" class="btn-enviar btn my-4" style="background-color: #3D3242; color:white;"><a href="/">Regresar al inicio</a></button>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</main>
